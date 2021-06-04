@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,11 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7",
+    "vue-loader": "^15.9.7",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
   }
 }

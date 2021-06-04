@@ -13,6 +13,12 @@ router.post('/', async (req,res)=>{
 	res.json({
 		status: 'Tarea creada!'
 	})
+
+router.get('/:id', async()=>{})
+
+router.put('/:id', async()=>{})
+
+router.delete('/:id', async()=>{})
 })
 
 
