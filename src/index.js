@@ -1,5 +1,6 @@
 const express = require('express')
 
+
 const app = express()
 
 //SETTINGS
@@ -12,7 +13,7 @@ app.set('port', 3000 || process.env.PORT)
 
 
 //STATIC FILES
-
+app.use(express.static(__dirname+'/public'))
 
 //SERVICIO ESCUCHANDO
 app.listen(app.get('port'), ()=>{
